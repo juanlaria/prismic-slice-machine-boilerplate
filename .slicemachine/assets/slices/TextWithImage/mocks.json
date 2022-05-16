@@ -1,0 +1,55 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "text_with_image",
+    "items": [],
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Reprehenderit anim eu reprehenderit velit deserunt. Proident do reprehenderit pariatur tempor. Irure irure sit reprehenderit cupidatat et.",
+          "spans": []
+        }
+      ],
+      "image": {
+        "dimensions": {
+          "width": 1000,
+          "height": 1200
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=1000&h=1200&fit=crop"
+      }
+    }
+  },
+  {
+    "variation": "withButton",
+    "name": "With Button",
+    "slice_type": "text_with_image",
+    "items": [],
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Nostrud ullamco tempor elit adipisicing et occaecat mollit et voluptate sit. Adipisicing ipsum veniam eiusmod quis culpa aute laboris ut ullamco qui nisi. Non in commodo culpa qui veniam do.",
+          "spans": []
+        }
+      ],
+      "buttonLink": {
+        "link_type": "Web",
+        "url": "http://google.com"
+      },
+      "buttonText": "brand dynamic applications",
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&h=500&fit=crop"
+      }
+    }
+  }
+]

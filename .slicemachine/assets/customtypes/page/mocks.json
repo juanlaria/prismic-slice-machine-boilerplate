@@ -1,0 +1,22 @@
+{
+  "id": "db71fd46-dc62-4128-aee0-98926b76dd35",
+  "uid": "quaerat-est-cumque",
+  "type": "page",
+  "data": {
+    "parent": {
+      "link_type": "Web",
+      "url": "http://google.com"
+    },
+    "metadataTitle": [
+      {
+        "type": "heading1",
+        "text": "Visualize bricks-and-clicks metrics",
+        "spans": []
+      }
+    ],
+    "metadataDescription": "incubate bleeding-edge partnerships",
+    "metadataCanonical": "engage proactive web services",
+    "metadataIndexing": "noindex",
+    "metadataKeywords": "matrix seamless architectures"
+  }
+}

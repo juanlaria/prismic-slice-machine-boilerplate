@@ -1,0 +1,32 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "text",
+    "items": [],
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Sint nisi consectetur amet veniam aliqua culpa proident consectetur velit fugiat aliqua amet. Cupidatat consectetur ex est in elit eiusmod irure duis amet est id aliqua culpa veniam.",
+          "spans": []
+        }
+      ]
+    }
+  },
+  {
+    "variation": "twoColumns",
+    "name": "Two Columns",
+    "slice_type": "text",
+    "items": [],
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Id eu esse voluptate veniam deserunt qui anim eiusmod. Aliqua exercitation culpa esse.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]

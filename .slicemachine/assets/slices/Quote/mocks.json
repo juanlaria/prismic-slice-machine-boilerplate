@@ -1,0 +1,18 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "quote",
+    "items": [],
+    "primary": {
+      "quote": [
+        {
+          "type": "heading3",
+          "text": "Deliver integrated e-business",
+          "spans": []
+        }
+      ],
+      "source": "disintermediate dynamic infrastructures"
+    }
+  }
+]

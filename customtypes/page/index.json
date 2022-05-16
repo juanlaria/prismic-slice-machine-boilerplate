@@ -1,0 +1,194 @@
+{
+  "id": "page",
+  "label": "Page",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "hero": {
+              "type": "SharedSlice"
+            },
+            "quote": {
+              "type": "SharedSlice"
+            },
+            "text": {
+              "type": "SharedSlice"
+            },
+            "image": {
+              "type": "SharedSlice"
+            },
+            "image_cards": {
+              "type": "SharedSlice"
+            },
+            "text_with_image": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "Metadata": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID",
+          "placeholder": ""
+        }
+      },
+      "parent": {
+        "type": "Link",
+        "config": {
+          "label": "Parent",
+          "select": "document",
+          "customtypes": [
+            "page"
+          ]
+        }
+      },
+      "metadataTitle": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Metadata Title",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "heading1"
+        }
+      },
+      "metadataDescription": {
+        "type": "Text",
+        "config": {
+          "label": "Description",
+          "placeholder": ""
+        }
+      },
+      "metadataCanonical": {
+        "type": "Text",
+        "config": {
+          "label": "Canonical URL",
+          "placeholder": ""
+        }
+      },
+      "metadataIndexing": {
+        "type": "Select",
+        "config": {
+          "label": "Indexing",
+          "placeholder": "",
+          "options": [
+            "noindex",
+            "nofollow",
+            "noindex, nofollow"
+          ]
+        }
+      },
+      "metadataKeywords": {
+        "type": "Text",
+        "config": {
+          "label": "Keywords",
+          "placeholder": ""
+        }
+      }
+    },
+    "Social Cards": {
+      "social": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "general_card": {
+              "type": "Slice",
+              "fieldset": "General Card",
+              "description": "General Social card for Facebook, LinkedIn, etc.",
+              "icon": "art_track",
+              "non-repeat": {
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title"
+                  }
+                },
+                "description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Description"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "thumbnails": [],
+                    "label": "Image"
+                  }
+                }
+              },
+              "repeat": {},
+              "display": "list"
+            },
+            "twitter_card": {
+              "type": "Slice",
+              "fieldset": "Twitter Card",
+              "description": "Twitter summary card with image",
+              "icon": "subtitles",
+              "non-repeat": {
+                "card_type": {
+                  "type": "Select",
+                  "config": {
+                    "options": [
+                      "Standard Summary Card",
+                      "Summary Card with Large Image"
+                    ],
+                    "default_value": "Standard Summary Card",
+                    "label": "Card type"
+                  }
+                },
+                "twitter_handle": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Twitter Handle",
+                    "placeholder": "Twitter handle..."
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Twitter card title"
+                  }
+                },
+                "description": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "Twitter card description"
+                  }
+                },
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "constraint": {
+                      "width": 300,
+                      "height": 300
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "large_image",
+                        "width": 600,
+                        "height": 314
+                      }
+                    ],
+                    "label": "Image"
+                  }
+                }
+              },
+              "repeat": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "image",
+    "items": [],
+    "primary": {
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=900&h=500&fit=crop"
+      }
+    }
+  },
+  {
+    "variation": "banner",
+    "name": "Banner",
+    "slice_type": "image",
+    "items": [],
+    "primary": {
+      "image": {
+        "dimensions": {
+          "width": 3000,
+          "height": 1000
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=3000&h=1000&fit=crop"
+      }
+    }
+  }
+]
