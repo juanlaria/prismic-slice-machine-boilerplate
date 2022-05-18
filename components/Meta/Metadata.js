@@ -3,9 +3,16 @@ import PropTypes from 'prop-types';
 import * as prismicH from "@prismicio/helpers";
 
 const Metadata = ({ title, canonical, description, keywords, indexing, settings }) => {
+  const connector = "|"
+  const siteTitle = prismicH.asText(settings.data.siteTitle)
+  const pageTitle = prismicH.asText(title)
+  let metaTitle =
+    (siteTitle && pageTitle) ?
+    `${pageTitle} ${connector} ${siteTitle}` : pageTitle || siteTitle
+
   return (
     <Head>
-      <title>{prismicH.asText(title)} | {prismicH.asText(settings.data.siteTitle)}</title>
+      <title>{metaTitle}</title>
       {canonical && <link rel="canonical" href={canonical} />}
       {description && <meta name="description" content={description} />}
       {keywords && <meta name="keywords" content={keywords} />}
