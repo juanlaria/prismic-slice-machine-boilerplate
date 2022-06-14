@@ -7,40 +7,17 @@
       {
         "image": {
           "dimensions": {
-            "width": 2200,
-            "height": 1200
+            "width": null,
+            "height": null
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=2200&h=1200&fit=crop"
+          "url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8?w=null&h=null&fit=crop"
         },
         "text": [
           {
             "type": "paragraph",
-            "text": "Commodo nostrud sit reprehenderit mollit dolor aliqua reprehenderit in pariatur. Culpa aliqua tempor nisi officia non aliqua amet laboris occaecat non nulla reprehenderit labore eiusmod. Ex amet occaecat labore officia magna mollit non veniam fugiat.",
-            "spans": []
-          }
-        ],
-        "buttonLink": {
-          "link_type": "Web",
-          "url": "http://google.com"
-        },
-        "buttonText": "benchmark one-to-one platforms"
-      },
-      {
-        "image": {
-          "dimensions": {
-            "width": 2200,
-            "height": 1200
-          },
-          "alt": "Placeholder image",
-          "copyright": null,
-          "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=2200&h=1200&fit=crop"
-        },
-        "text": [
-          {
-            "type": "paragraph",
-            "text": "Do anim voluptate duis est. Nulla quis exercitation aliqua reprehenderit. Ex commodo ullamco cillum consectetur dolore sint voluptate aliqua esse sunt cillum.",
+            "text": "Mollit proident occaecat minim ea ut adipisicing velit veniam sint velit aliqua pariatur excepteur. Lorem reprehenderit excepteur sit minim exercitation duis do duis ad anim labore. Deserunt elit cillum amet occaecat sint occaecat consectetur.",
             "spans": []
           }
         ],
@@ -48,22 +25,45 @@
           "link_type": "Web",
           "url": "https://slicemachine.dev"
         },
-        "buttonText": "leverage strategic e-markets"
+        "buttonText": "cultivate seamless eyeballs"
       },
       {
         "image": {
           "dimensions": {
-            "width": 2200,
-            "height": 1200
+            "width": null,
+            "height": null
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=2200&h=1200&fit=crop"
+          "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=null&h=null&fit=crop"
         },
         "text": [
           {
             "type": "paragraph",
-            "text": "Non ipsum eu aliquip minim adipisicing adipisicing ex. Labore non sit aute tempor. Occaecat commodo aute exercitation in labore adipisicing tempor pariatur aliquip Lorem do sunt duis.",
+            "text": "Aliquip eiusmod consequat voluptate est amet voluptate anim duis. Mollit ea deserunt nulla incididunt proident mollit excepteur sit ipsum ullamco dolor.",
+            "spans": []
+          }
+        ],
+        "buttonLink": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        },
+        "buttonText": "morph intuitive blockchains"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": null,
+            "height": null
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=null&h=null&fit=crop"
+        },
+        "text": [
+          {
+            "type": "paragraph",
+            "text": "In aliquip anim aliquip laborum ullamco commodo pariatur culpa ullamco laborum. Minim cupidatat excepteur aliquip sunt. Ipsum labore labore labore consequat aliqua minim magna labore adipisicing labore exercitation qui.",
             "spans": []
           }
         ],
@@ -71,40 +71,42 @@
           "link_type": "Web",
           "url": "https://slicemachine.dev"
         },
-        "buttonText": "synthesize granular networks"
+        "buttonText": "deploy holistic infomediaries"
       },
       {
         "image": {
           "dimensions": {
-            "width": 2200,
-            "height": 1200
+            "width": null,
+            "height": null
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=2200&h=1200&fit=crop"
+          "url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?w=null&h=null&fit=crop"
         },
         "text": [
           {
             "type": "paragraph",
-            "text": "Deserunt cupidatat ipsum nostrud ex officia. Ex proident mollit nostrud officia magna nostrud reprehenderit commodo ipsum exercitation consectetur. Ea eiusmod est enim amet reprehenderit sunt eu amet proident sint.",
+            "text": "Dolor enim nostrud nisi Lorem. Occaecat non velit anim et velit. Nisi amet non excepteur occaecat elit labore laborum.",
             "spans": []
           }
         ],
         "buttonLink": {
           "link_type": "Web",
-          "url": "http://google.com"
+          "url": "https://prismic.io"
         },
-        "buttonText": "syndicate value-added eyeballs"
+        "buttonText": "aggregate seamless partnerships"
       }
     ],
     "primary": {
       "heading": [
         {
           "type": "heading1",
-          "text": "Architect customized methodologies",
+          "text": "Extend clicks-and-mortar applications",
           "spans": []
         }
-      ]
+      ],
+      "theme": "Inherited",
+      "columns": "2"
     }
   }
 ]

@@ -1,13 +1,13 @@
-const Heading = ({
-  as: Comp = "h1",
-  children,
-  className,
-}) => {
+import { Wrapper } from './styles';
+
+const Heading = ({ level = 2, children }) => {
+  const tag = `h${level}`;
+
   return (
-    <Comp className={className}>
+    <Wrapper as={tag}>
       {children}
-    </Comp>
+    </Wrapper>
   );
-};
+}
 
 export default Heading;

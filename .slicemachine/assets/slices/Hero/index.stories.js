@@ -1,9 +1,12 @@
-import MyComponent from '~/slices/Hero';
+import MyComponent from '../../../../slices/Hero';
 
 export default {
   title: 'slices/Hero'
 }
 
 
-export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"hero","items":[],"primary":{"title":[{"type":"heading1","text":"Expedite synergistic supply-chains","spans":[]}],"description":[{"type":"paragraph","text":"Excepteur tempor aliqua labore aute et proident adipisicing. Sint aliquip sint excepteur reprehenderit pariatur ex voluptate nisi Lorem nulla id id aliqua ea pariatur.","spans":[]}],"image":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1547082299-de196ea013d6?w=900&h=500&fit=crop"}},"id":"_Default"}} />
+export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"hero","items":[],"primary":{"text":[{"type":"paragraph","text":"Anim voluptate consectetur irure sunt aliqua sit nostrud nulla ipsum culpa. Veniam labore incididunt irure nulla ex id eu ipsum labore.","spans":[]}],"buttonLink":{"link_type":"Web","url":"http://twitter.com"},"buttonText":"recontextualize clicks-and-mortar web-readiness","theme":"Accent"},"id":"_Default"}} />
 _Default.storyName = 'Default'
+
+export const _WithBackground = () => <MyComponent slice={{"variation":"withBackground","name":"With Background","slice_type":"hero","items":[],"primary":{"text":[{"type":"paragraph","text":"Sunt eu nostrud velit mollit pariatur laboris esse. Lorem cupidatat aute do quis exercitation cillum reprehenderit nostrud commodo consectetur tempor. Ullamco ad anim ipsum dolor enim quis reprehenderit ad magna incididunt adipisicing esse aute.","spans":[]}],"buttonLink":{"link_type":"Web","url":"http://twitter.com"},"buttonText":"monetize distributed users","backgroundImage":{"dimensions":{"width":900,"height":500},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"},"theme":"Inherited"},"id":"_WithBackground"}} />
+_WithBackground.storyName = 'With Background'

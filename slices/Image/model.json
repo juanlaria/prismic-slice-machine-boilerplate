@@ -18,6 +18,29 @@
             "constraint": {},
             "thumbnails": []
           }
+        },
+        "theme": {
+          "type": "Select",
+          "config": {
+            "label": "Theme",
+            "placeholder": "",
+            "options": [
+              "Inherited",
+              "Light",
+              "Dark",
+              "Accent"
+            ],
+            "default_value": "Inherited"
+          }
+        },
+        "contained": {
+          "type": "Boolean",
+          "config": {
+            "label": "Contained",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true
+          }
         }
       },
       "items": {},

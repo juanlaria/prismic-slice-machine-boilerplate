@@ -1,22 +1,23 @@
 {
-  "id": "db71fd46-dc62-4128-aee0-98926b76dd35",
-  "uid": "quaerat-est-cumque",
+  "id": "d808cc92-d5d2-4521-90a4-9ef4319818bb",
+  "uid": "omnis-dignissimos-pariatur",
   "type": "page",
   "data": {
+    "theme": "Dark",
     "parent": {
       "link_type": "Web",
-      "url": "http://google.com"
+      "url": "https://slicemachine.dev"
     },
     "metadataTitle": [
       {
         "type": "heading1",
-        "text": "Visualize bricks-and-clicks metrics",
+        "text": "Embrace best-of-breed e-commerce",
         "spans": []
       }
     ],
-    "metadataDescription": "incubate bleeding-edge partnerships",
-    "metadataCanonical": "engage proactive web services",
-    "metadataIndexing": "noindex",
-    "metadataKeywords": "matrix seamless architectures"
+    "metadataDescription": "integrate real-time mindshare",
+    "metadataCanonical": "cultivate cutting-edge communities",
+    "metadataIndexing": "noindex, nofollow",
+    "metadataKeywords": "repurpose bleeding-edge mindshare"
   }
 }

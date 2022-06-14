@@ -26,6 +26,20 @@
             "label": "Source",
             "placeholder": ""
           }
+        },
+        "theme": {
+          "type": "Select",
+          "config": {
+            "label": "Theme",
+            "placeholder": "",
+            "options": [
+              "Inherited",
+              "Light",
+              "Dark",
+              "Accent"
+            ],
+            "default_value": "Inherited"
+          }
         }
       },
       "items": {},

@@ -1,21 +1,40 @@
-import Head from "next/head";
 import { SliceZone } from "@prismicio/react";
-import * as prismicH from "@prismicio/helpers";
 
 import { createClient } from "~/prismicio";
 import { components } from "~/slices";
-import { Layout } from "~/components/Layout";
+import { Layout } from "~/components";
 
 const Page = ({ page, navigation, settings }) => {
+  // Props
+  const {
+    metadataCanonical,
+    metadataDescription,
+    metadataIndexing,
+    metadataKeywords,
+    metadataTitle,
+    social,
+    theme,
+    slices
+  } = page?.data || {};
+
+  // Metadata
+  const metadata = {
+    canonical: metadataCanonical,
+    description: metadataDescription,
+    indexing: metadataIndexing,
+    keywords: metadataKeywords,
+    title: metadataTitle,
+  };
+
   return (
-    <Layout navigation={navigation} settings={settings}>
-      <Head>
-        <title>
-          {prismicH.asText(page.data.title)} |{" "}
-          {prismicH.asText(settings.data.siteTitle)}
-        </title>
-      </Head>
-      <SliceZone slices={page.data.slices} components={components} />
+    <Layout
+      navigation={navigation}
+      settings={settings}
+      metadata={metadata}
+      social={social}
+      theme={theme}
+    >
+      <SliceZone slices={slices} components={components} />
     </Layout>
   );
 };

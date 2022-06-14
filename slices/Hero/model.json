@@ -16,6 +16,55 @@
           "config": {
             "label": "Text",
             "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "paragraph,heading1,strong,em,heading2"
+          }
+        },
+        "buttonLink": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
+        "buttonText": {
+          "type": "Text",
+          "config": {
+            "label": "Button Text",
+            "placeholder": ""
+          }
+        },
+        "theme": {
+          "type": "Select",
+          "config": {
+            "label": "Theme",
+            "placeholder": "",
+            "options": [
+              "Inherited",
+              "Light",
+              "Dark",
+              "Accent"
+            ],
+            "default_value": "Inherited"
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "withBackground",
+      "name": "With Background",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Hero",
+      "primary": {
+        "text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Text",
+            "placeholder": "",
             "allowTargetBlank": true,
             "multi": "paragraph,heading1,strong,em"
           }
@@ -41,6 +90,20 @@
             "label": "Background Image",
             "constraint": {},
             "thumbnails": []
+          }
+        },
+        "theme": {
+          "type": "Select",
+          "config": {
+            "label": "Theme",
+            "placeholder": "",
+            "options": [
+              "Inherited",
+              "Light",
+              "Dark",
+              "Accent"
+            ],
+            "default_value": "Inherited"
           }
         }
       },

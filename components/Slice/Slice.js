@@ -1,6 +1,8 @@
-import { Header, Meta } from "~/components";
+import { Container } from '~/shared/styles';
+import { ConditionalWrap } from "~/components";
+import { Wrapper } from './styles';
 
-const Layout = ({ navigation, settings, metadata, social, theme, children }) => {
+const Slice = ({ contained = true, theme, fullHeight, children }) => {
   let colors = {}
 
   switch (theme) {
@@ -25,17 +27,21 @@ const Layout = ({ navigation, settings, metadata, social, theme, children }) => 
   }
 
   return (
-    <div
+    <Wrapper
+      fullHeight={fullHeight}
       style={{
         '--color-text': colors.text,
-        '--color-background': colors.background
+        '--color-background': colors.background,
       }}
     >
-      <Meta metadata={metadata} social={social} settings={settings} />
-      {navigation && <Header navigation={navigation} settings={settings} />}
-      <main>{children}</main>
-    </div>
+      <ConditionalWrap
+        condition={contained}
+        wrap={Container}
+      >
+        {children}
+      </ConditionalWrap>
+    </Wrapper>
   );
 };
 
-export default Layout
+export default Slice;

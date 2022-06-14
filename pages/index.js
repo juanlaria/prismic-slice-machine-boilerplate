@@ -1,10 +1,3 @@
-// import styled from 'styled-components'
-
-// const Title = styled.h1`
-//   font-size: 50px;
-//   color: ${({ theme }) => theme.colors.primary};
-// `
-   
 import { SliceZone } from "@prismicio/react";
 import { createClient } from "~/prismicio";
 import { components } from "~/slices";
@@ -19,6 +12,7 @@ const Home = ({ page, navigation, settings }) => {
     metadataKeywords,
     metadataTitle,
     social,
+    theme,
     slices
   } = page?.data || {};
 
@@ -37,6 +31,7 @@ const Home = ({ page, navigation, settings }) => {
       settings={settings}
       metadata={metadata}
       social={social}
+      theme={theme}
     >
       <SliceZone slices={slices} components={components} />
     </Layout>

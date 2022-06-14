@@ -19,6 +19,33 @@
             "allowTargetBlank": true,
             "multi": "heading1"
           }
+        },
+        "theme": {
+          "type": "Select",
+          "config": {
+            "label": "Theme",
+            "placeholder": "",
+            "options": [
+              "Inherited",
+              "Light",
+              "Dark",
+              "Accent"
+            ],
+            "default_value": "Inherited"
+          }
+        },
+        "columns": {
+          "type": "Select",
+          "config": {
+            "label": "Number of columns",
+            "placeholder": "",
+            "options": [
+              "2",
+              "3",
+              "4"
+            ],
+            "default_value": "2"
+          }
         }
       },
       "items": {
@@ -27,8 +54,8 @@
           "config": {
             "label": "Image",
             "constraint": {
-              "width": 2200,
-              "height": 1200
+              "width": null,
+              "height": null
             },
             "thumbnails": []
           }

@@ -19,6 +19,20 @@
             "allowTargetBlank": true,
             "multi": "paragraph,heading1,heading2,heading3,strong,em,hyperlink,list-item,o-list-item"
           }
+        },
+        "theme": {
+          "type": "Select",
+          "config": {
+            "label": "Theme",
+            "placeholder": "",
+            "options": [
+              "Inherited",
+              "Light",
+              "Dark",
+              "Accent"
+            ],
+            "default_value": "Inherited"
+          }
         }
       },
       "items": {},

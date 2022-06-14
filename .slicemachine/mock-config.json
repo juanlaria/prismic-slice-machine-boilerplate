@@ -7,6 +7,35 @@
           "blocks": 1
         }
       }
+    },
+    "settings": {}
+  },
+  "slices": {
+    "Hero": {
+      "default": {
+        "primary": {
+          "text": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      },
+      "withBackground": {
+        "primary": {}
+      }
+    },
+    "Image": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "ImageCards": {
+      "default": {
+        "items": {},
+        "primary": {}
+      }
     }
   }
 }

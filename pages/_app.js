@@ -1,22 +1,9 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'styled-components'
 import Link from 'next/link'
 import { PrismicProvider } from '@prismicio/react'
 import { PrismicPreview } from '@prismicio/next'
 import { linkResolver, repositoryName } from '~/prismicio'
-
-const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-`
-
-const theme = {
-  colors: {
-    primary: '#0070f3',
-  },
-}
+import { GlobalStyle, theme } from '~/shared/styles';
 
 export default function App({ Component, pageProps }) {
   return (
@@ -31,6 +18,7 @@ export default function App({ Component, pageProps }) {
             </a>
           </Link>
         )}
+        externalLinkComponent={(props) => <a target="_blank" rel="noopener noreferrer" {...props} />}
       >
         <PrismicPreview repositoryName={repositoryName}>
           <ThemeProvider theme={theme}>

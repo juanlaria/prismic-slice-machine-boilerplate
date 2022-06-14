@@ -5,6 +5,19 @@
   "status": true,
   "json": {
     "Main": {
+      "theme": {
+        "type": "Select",
+        "config": {
+          "label": "Theme",
+          "placeholder": "",
+          "options": [
+            "Inherited",
+            "Light",
+            "Dark",
+            "Accent"
+          ]
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
