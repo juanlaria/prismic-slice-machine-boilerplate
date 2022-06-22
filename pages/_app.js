@@ -1,7 +1,7 @@
 
 import { useLayoutEffect } from 'react'
 import { ThemeProvider } from 'styled-components'
-import Link from 'next/link'
+import NextLink from 'next/link'
 import { PrismicProvider } from '@prismicio/react'
 import { PrismicPreview } from '@prismicio/next'
 import { linkResolver, repositoryName } from '~/prismicio'
@@ -24,11 +24,11 @@ export default function App({ Component, pageProps, router }) {
       <PrismicProvider
         linkResolver={linkResolver}
         internalLinkComponent={({ href, children, ...props }) => (
-          <Link href={href}>
+          <NextLink href={href}>
             <a {...props}>
               {children}
             </a>
-          </Link>
+          </NextLink>
         )}
         externalLinkComponent={(props) => <a target="_blank" rel="noopener noreferrer" {...props} />}
       >
