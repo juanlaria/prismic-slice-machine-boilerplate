@@ -1,12 +1,12 @@
-import colors from "~/shared/colors"
+import defaultThemeColors from "~/shared/defaultThemeColors"
 import { Header, Meta } from "~/components";
 
 const Layout = ({ navigation, settings, metadata, social, theme = 'Light', children }) => {
   return (
     <div
       style={{
-        '--color-text': colors[theme]?.text,
-        '--color-background': colors[theme]?.background
+        '--color-text': defaultThemeColors[theme]?.text,
+        '--color-background': defaultThemeColors[theme]?.background
       }}
     >
       <Meta metadata={metadata} social={social} settings={settings} />

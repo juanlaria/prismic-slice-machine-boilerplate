@@ -1,5 +1,5 @@
 import { Container } from '~/shared/styles';
-import colors from "~/shared/colors"
+import defaultThemeColors from "~/shared/defaultThemeColors"
 import { ConditionalWrap } from "~/components";
 import { Wrapper } from './styles';
 
@@ -8,8 +8,8 @@ const Slice = ({ contained = true, theme = 'Light', fullHeight, children }) => {
     <Wrapper
       fullHeight={fullHeight}
       style={{
-        '--color-text': colors[theme]?.text,
-        '--color-background': colors[theme]?.background
+        '--color-text': defaultThemeColors[theme]?.text,
+        '--color-background': defaultThemeColors[theme]?.background
       }}
     >
       <ConditionalWrap
