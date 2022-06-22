@@ -7,7 +7,7 @@ export const Wrapper = styled.header`
 	left: 0;
 	right: 0;
 	background-color: var(--color-primary);
-	color: var(--color-black);
+	color: var(--color-secondary);
 	padding: var(--grid-gap) 0;
     z-index: 1;
 

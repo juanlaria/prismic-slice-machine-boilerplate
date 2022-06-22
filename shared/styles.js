@@ -8,8 +8,8 @@ export const GlobalStyle = createGlobalStyle`
     /* General */
     --color-black: #000000;
     --color-white: #ffffff;
-    --color-primary: #00ff3c;
-    --color-secondary: #3d4451;
+    --color-primary: #DDE963;
+    --color-secondary: #3F4C6C;
     --color-accent: #1d87ed;
     --component-padding: 3rem;
     --grid-gap: 0.75rem;
@@ -32,6 +32,7 @@ export const GlobalStyle = createGlobalStyle`
     height: 100%;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
+    color: var(--color-secondary)
   }
 
   #__next {
@@ -118,6 +119,8 @@ export const containerStyles = css`
 export const Container = styled('div')`
   ${containerStyles};
 `;
+
+export const Link = styled('a')``;
 
 /* Visually hidden class */
 export const cloakStyles = css`

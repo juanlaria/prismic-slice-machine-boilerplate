@@ -11,9 +11,9 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h1`
-	color: red;
+	color: var(--color-secondary);
 `;
 
 export const Description = styled.p`
-	color: blue;
+	color: var(--color-secondary);
 `;
