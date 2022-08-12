@@ -22,7 +22,7 @@ const Metadata = ({ title, canonical, description, keywords, indexing, settings 
 };
 
 Metadata.propTypes = {
-  title: PropTypes.string,
+  title: PropTypes.array,
   canonical: PropTypes.string,
   description: PropTypes.string,
   keywords: PropTypes.string,

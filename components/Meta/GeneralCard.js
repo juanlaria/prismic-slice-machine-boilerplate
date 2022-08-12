@@ -1,7 +1,10 @@
 import Head from 'next/head';
 import PropTypes from 'prop-types';
+import * as prismicH from "@prismicio/helpers";
 
-const GeneralCard = ({ canonical, title, description, image }) => {
+const GeneralCard = ({ canonical, siteTitle: siteTitleProp, title, description, image }) => {
+	const siteTitle = prismicH.asText(siteTitleProp)
+
   return (
     <Head>
       {canonical && <meta name="og:url" content={canonical} />}
@@ -9,7 +12,7 @@ const GeneralCard = ({ canonical, title, description, image }) => {
       {description && <meta name="og:description" content={description} />}
       {image && <meta name="og:image" content={image.url} />}
       <meta property="og:type" content="website" />
-      <meta property="og:site_name" content={""} />
+      <meta property="og:site_name" content={siteTitle} />
     </Head>
   );
 };
