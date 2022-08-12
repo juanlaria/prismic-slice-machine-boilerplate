@@ -1,15 +1,25 @@
 {
-  "id": "29d15fb4-c6e7-4da9-b69e-87935b0102d2",
-  "uid": "laborum-repellat-placeat",
+  "id": "023ddf46-cf4b-492d-b762-43619d03d02d",
+  "uid": "autem-est-incidunt",
   "type": "settings",
   "data": {
     "siteTitle": [
       {
         "type": "heading1",
-        "text": "Maximize distributed infomediaries",
+        "text": "Unleash value-added solutions",
         "spans": []
       }
     ],
-    "theme": "Accent"
+    "theme": "Dark",
+    "color": "#cd6e4f",
+    "icon": {
+      "dimensions": {
+        "width": 500,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=500&fit=crop"
+    }
   }
 }

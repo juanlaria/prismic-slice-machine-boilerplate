@@ -25,6 +25,33 @@
             "Accent"
           ]
         }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    },
+    "Favicon": {
+      "color": {
+        "type": "Color",
+        "config": {
+          "label": "Color",
+          "placeholder": ""
+        }
+      },
+      "icon": {
+        "type": "Image",
+        "config": {
+          "label": "Icon",
+          "constraint": {
+            "width": 500,
+            "height": 500
+          },
+          "thumbnails": []
+        }
       }
     }
   }
