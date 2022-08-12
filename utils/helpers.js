@@ -1,5 +1,9 @@
 export const objectNotEmpty = obj => {
-  return !(Object.keys(obj).length === 0 && obj.constructor === Object);
+  if (obj) {
+    return !(Object.keys(obj).length === 0 && obj.constructor === Object);
+  } else {
+    return false
+  }
 };
 
 export const isBrowser =
